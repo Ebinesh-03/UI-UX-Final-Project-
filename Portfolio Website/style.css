@@ -1,0 +1,89 @@
+/* GENERAL */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8f9fa;
+  scroll-behavior: smooth;
+}
+
+h1, h3, h5 {
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* HERO */
+.hero-section {
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  height: 80vh;
+  color: white;
+}
+
+.hero-section .accent {
+  color: #ffd700;
+}
+
+.wave {
+  animation: wave 1.5s infinite;
+  display: inline-block;
+}
+
+@keyframes wave {
+  0%, 100% { transform: rotate(0deg);}
+  25% { transform: rotate(15deg);}
+  50% { transform: rotate(-15deg);}
+  75% { transform: rotate(15deg);}
+}
+
+/* NAVBAR */
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #ffd700 !important;
+}
+
+/* CARDS */
+.hover-lift:hover {
+  transform: translateY(-8px);
+  transition: all 0.3s ease;
+}
+
+.project-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* SKILLS */
+.skill-pill {
+  background: #2575fc;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 50px;
+  display: inline-block;
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+/* SECTIONS FADE IN */
+.section-fade {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s forwards;
+  animation-delay: 0.2s;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* FOOTER */
+.footer {
+  font-size: 0.9rem;
+}
