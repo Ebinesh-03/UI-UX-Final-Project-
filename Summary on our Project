@@ -1,0 +1,35 @@
+#Project Summary
+Our projects demonstrate practical skills in front-end web development using HTML, CSS, Bootstrap, and JavaScript.
+
+Portfolio Website
+
+Designed a personal portfolio website to showcase professional information, skills, projects, and contact details.
+
+Features include a responsive navbar, hero section, projects showcase, skills display, and contact form.
+
+Applied Bootstrap for responsive layout and CSS styling for modern aesthetics, including gradients, hover effects, and smooth animations.
+
+JavaScript was used for smooth scrolling, section fade-in effects, and interactivity to enhance user experience.
+
+To-Do List Application
+
+Developed a dynamic To-Do List that allows users to add, edit, and delete tasks.
+
+Implemented using HTML for structure, CSS and Bootstrap for styling, and JavaScript for functionality.
+
+Focused on user-friendly design, interactive UI, and real-time task management.
+
+Ensured tasks persist during a session and provided visual feedback for completed or pending tasks.
+
+Technologies Used:
+
+HTML5 – structure and layout
+
+CSS3 – styling, animations, responsive design
+
+Bootstrap 5 – responsive grid, components, and utility classes
+
+JavaScript – interactivity, DOM manipulation, smooth scrolling, and task management
+
+Outcome:
+These projects strengthened skills in web design, responsive development, and client-side scripting, showcasing the ability to create professional, interactive, and aesthetically pleasing web applications.
