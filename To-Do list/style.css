@@ -1,1 +1,29 @@
 
+/* css/styles.css */
+
+body {
+  background: #f8f9fa;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+.todo-card {
+  max-width: 800px;
+  margin: 40px auto;
+  border-radius: .65rem;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.list-group-item .task-text {
+  display: inline-block;
+  max-width: 280px;
+  word-break: break-word;
+}
+
+@media (max-width: 576px) {
+  .todo-card { margin: 20px; }
+  .list-group-item .task-text { max-width: 180px; }
+}
